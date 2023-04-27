@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+    background-image: url("../Resources/bg3.png");
+    font-size: 14pt;
+    font-family: 'Alkatra', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input{
+    font-size: 14pt;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 0.4em;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 14em;
+    font-family: 'Alkatra', cursive;
+}
+.input_container{
+    position: relative;
+    bottom: 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    /* background: white; */
+    background: rgb(229,233,241, 0.3);
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 0.5em;   
+}
+.title{
+    font-size: 24pt;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #ffbfb6;
+    border-radius: 15px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+.Predbtn{
+    padding: 0.5em;
+    background: hsl(233, 56%, 54%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14pt;
+    margin: 1em;
+    width: 10em;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-family: 'Alkatra', cursive;
+    margin-left: 20%;
+}
+.op_box{
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    background: wheat;
+    font-size: 14pt;
+    padding: 1em;
+}
+.dropdown{
+    font-size: 14pt;
+    border-radius: 5px;
+    padding: 0.4em;
+    margin: 0.5em;
+    width: 11em;
+    font-family: 'Alkatra', cursive;
+}
+option{
+    border-radius: 5px;
+}
